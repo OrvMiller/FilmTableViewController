@@ -14,6 +14,7 @@
 		875BFDDE1BC3F8FC00CC1960 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875BFDDD1BC3F8FC00CC1960 /* Images.xcassets */; };
 		875BFDE11BC3F8FC00CC1960 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875BFDDF1BC3F8FC00CC1960 /* LaunchScreen.xib */; };
 		875BFDED1BC3F8FC00CC1960 /* MyFilmsLiberaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875BFDEC1BC3F8FC00CC1960 /* MyFilmsLiberaryTests.m */; };
+		875BFDF81BC3F9E700CC1960 /* FilmTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875BFDF71BC3F9E700CC1960 /* FilmTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		875BFDE61BC3F8FC00CC1960 /* MyFilmsLiberaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFilmsLiberaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		875BFDEB1BC3F8FC00CC1960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		875BFDEC1BC3F8FC00CC1960 /* MyFilmsLiberaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFilmsLiberaryTests.m; sourceTree = "<group>"; };
+		875BFDF61BC3F9E700CC1960 /* FilmTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilmTableViewController.h; sourceTree = "<group>"; };
+		875BFDF71BC3F9E700CC1960 /* FilmTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilmTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				875BFDDD1BC3F8FC00CC1960 /* Images.xcassets */,
 				875BFDDF1BC3F8FC00CC1960 /* LaunchScreen.xib */,
 				875BFDD01BC3F8FC00CC1960 /* Supporting Files */,
+				875BFDF61BC3F9E700CC1960 /* FilmTableViewController.h */,
+				875BFDF71BC3F9E700CC1960 /* FilmTableViewController.m */,
 			);
 			path = MyFilmsLiberary;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				875BFDD91BC3F8FC00CC1960 /* ViewController.m in Sources */,
 				875BFDD61BC3F8FC00CC1960 /* AppDelegate.m in Sources */,
 				875BFDD31BC3F8FC00CC1960 /* main.m in Sources */,
+				875BFDF81BC3F9E700CC1960 /* FilmTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

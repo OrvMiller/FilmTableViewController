@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FilmTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.window =[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    
     // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    //create Film Table View and add it to Navigation Controller, thenn add Nav Controller to Window
+    FilmTableViewController *vc =[[FilmTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    navController = [[UINavigationController alloc] initWithRootViewController:vc];
+    [[self window] addSubview:[navController view]];
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
